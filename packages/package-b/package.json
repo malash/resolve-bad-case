@@ -1,0 +1,25 @@
+{
+  "name": "@my-scope/package-b",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Malash <i@malash.me>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/package-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@my-scope/package-a": "^0.0.0"
+  }
+}
