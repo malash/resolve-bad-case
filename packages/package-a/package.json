@@ -5,7 +5,7 @@
   "author": "Malash <i@malash.me>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/package-a.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
