@@ -37,12 +37,12 @@ It outputs:
 
 ```
 /Users/malash/Projects/resolve-bad-case/node_modules/jquery/dist/jquery.js
-/Users/malash/Projects/resolve-bad-case/node_modules/resolve/lib/sync.js:45
+/Users/malash/Projects/resolve-bad-case/node_modules/resolve/lib/sync.js:46
     throw err;
     ^
 
-Error: Cannot find module '../../node_modules/jquery' from './node_modules/@my-scope/package-b'
-    at Function.module.exports [as sync] (/Users/malash/Projects/resolve-bad-case/node_modules/resolve/lib/sync.js:43:15)
+Error: Cannot find module '../../node_modules/jquery' from '/Users/malash/Projects/resolve-bad-case/packages/package-a/node_modules/@my-scope/package-b'
+    at Function.module.exports [as sync] (/Users/malash/Projects/resolve-bad-case/node_modules/resolve/lib/sync.js:44:15)
     at Object.<anonymous> (/Users/malash/Projects/resolve-bad-case/packages/package-a/index.js:8:21)
     at Module._compile (internal/modules/cjs/loader.js:707:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
